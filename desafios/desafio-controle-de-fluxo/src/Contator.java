@@ -10,12 +10,7 @@ public class Contator{
 		
 		try {
 			//chamando o método contendo a lógica de contagem
-		static void	contar(parametroUm, parametroDois){
-            for (parametroDois : parametroUm) {
-                System.out.println("");
-                
-            }
-        };
+			contar(parametroUm, parametroDois);
 		
 		}catch (? exception) {
 			//imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
